@@ -25,7 +25,7 @@ The primary goal of this project is to ingest, clean, analyze, and model crime d
 
 ## 🛠️ Prerequisites
 
-To run this notebook, you need the following libraries installed in your Python environment:
+To run this project, you need the following libraries installed in your Python environment:
 
 *   **Apache Spark** (PySpark)
 *   **Pandas**
@@ -36,6 +36,8 @@ To run this notebook, you need the following libraries installed in your Python 
 Ensure you have a working Spark environment (local or cluster).
 
 ## 📊 Dataset
+
+The dataset can be downloaded by executing the `dataset_download.ipynb` notebook.
 
 The data consists of open CSV files from UK Police crime reports.
 **Time Span:** End of 2022 to End of 2025.
@@ -52,6 +54,7 @@ The data consists of open CSV files from UK Police crime reports.
 ## 📂 Project Structure
 
 *   `data_analysis_crimes_by_arrea.ipynb`: The main Jupyter Notebook containing all code for loading, analysis, and modeling.
+*   `dataset_download.ipynb`: Jupyter Notebook containing code for the download of the dataset.
 *   `london_boroughs.geojson` & `lsoa.geojson`: Geospatial files used for mapping and identifying borough boundaries.
 *   `map/`: Directory containing additional shapefiles or map resources.
 *   `scalability/`: Directory containing output files from the scalability testing (plots, .json).
