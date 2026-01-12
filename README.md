@@ -10,6 +10,7 @@ This repository contains a comprehensive data analysis project focused on crime 
 - [Project Structure](#project-structure)
 - [Installation & Usage](#installation--usage)
 - [Analysis Workflow](#analysis-workflow)
+- [Scale Up](#scale-up)
 - [Results](#results)
 
 ## 📖 Project Overview
