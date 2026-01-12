@@ -53,6 +53,7 @@ The data consists of open CSV files from UK Police crime reports.
 *   `data_analysis_crimes_by_arrea.ipynb`: The main Jupyter Notebook containing all code for loading, analysis, and modeling.
 *   `london_boroughs.geojson` & `lsoa.geojson`: Geospatial files used for mapping and identifying borough boundaries.
 *   `map/`: Directory containing additional shapefiles or map resources.
+*   `scalability/`: Directory containing output files from the scalability testing (plots, .json).
 
 ## 🔍 Analysis Workflow
 
@@ -75,7 +76,8 @@ The notebook follows these major steps:
     *   Trains a Decision Tree model to analyze crime patterns.
 
 ## ⬆️ Scale Up
-Missing.
+
+This projects scalability is tested via speed-up, size-up and scale-up. The results of these tests are stored in the  `scalability/`, where the output graphs can be found.
 
 
 ## 📈 Results
